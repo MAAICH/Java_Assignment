@@ -19,5 +19,8 @@ public class AgeException {
 	catch(AgeExceptionDemo a) {
 		System.out.println(a);
 	}
+	finally {
+		System.out.println("Hello");
+	}
 }
 }
